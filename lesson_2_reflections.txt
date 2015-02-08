@@ -7,3 +7,17 @@ The staging area is acts as a buffer between the working directory and the repos
 
 How can you use the staging area to make sure that you have one commit per logical change?
 By reviewing the change and documenting what was done in the message.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+When trying out multiple variations of a file or mulitple solutions to a problem. Branches allow you to keep them seperate.
+
+How do the diagrams help you visualize the branch structure?
+By illustrating the treelike structure of the branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is that the two branches now become one. It is represented that way to show the relationship and where the merge took place.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Git understands that a change exists but cannot qualify the change to make a determination on what to keep. When no conflict exists and the file merge is done automatically it saves time.
+
